@@ -21,8 +21,14 @@ namespace FoodOrdering.Admin
             if (!IsPostBack)
             {
                 Session["breadCrum"] = "Product";
-                getProducts();
-
+                if (Session["admin"] == null)
+                {
+                    Response.Redirect("../User/Login.aspx");
+                }
+                else
+                {
+                    getProducts();
+                }
             }
             lblMsg.Visible = false;
         }
