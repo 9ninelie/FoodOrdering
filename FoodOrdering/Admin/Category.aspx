@@ -96,7 +96,7 @@
                                                             <tr>
                                                                 <td class="table-plus"> <%# Eval("Name") %> </td>
                                                                 <td>
-                                                                    <img alt="" width="40px" src="<%# Utils.GetImageUrl(Eval("ImageUrl")) %>" />
+                                                                    <img alt="" width="40" src="<%# Utils.GetImageUrl(Eval("ImageUrl")) %>" />
                                                                 </td>
                                                                 <td> 
                                                                     <asp:Label ID="lblIsActive" runat="server" Text='<%# Eval("IsActive") %>'></asp:Label>
