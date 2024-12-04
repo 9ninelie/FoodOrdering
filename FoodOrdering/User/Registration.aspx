@@ -106,8 +106,8 @@
 
                 <div class="row-pl-4">
                     <div class="btn_box">
-                        <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="btn btn-success rounded-pill pl-4 pr-4 text-white" 
-                            OnClick="btnRegister_Click"/>
+                        <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="btn btn-success rounded-pill pl-4 pr-4 text-white"
+                            OnClick="btnRegister_Click" />
 
                         <asp:Label ID="lblAlreadyUser" runat="server" CssClass="pl-3 text-black-100"
                             Text="<a href='Login.aspx' class='badge badge-info'>Click Here to Sign In</a>">

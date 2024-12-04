@@ -70,6 +70,7 @@
     <Content Include="Admin\Category.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
     <Content Include="Admin\Product.aspx" />
+    <Content Include="Admin\UsersManagement.aspx" />
     <Content Include="App_Data\FoodOrderingDB.mdf" />
     <Content Include="App_Data\FoodOrderingDB_log.ldf">
       <DependentUpon>FoodOrderingDB.mdf</DependentUpon>
@@ -243,6 +244,13 @@
     </Compile>
     <Compile Include="Admin\Product.aspx.designer.cs">
       <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UsersManagement.aspx.cs">
+      <DependentUpon>UsersManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UsersManagement.aspx.designer.cs">
+      <DependentUpon>UsersManagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="Connection.cs" />
     <Compile Include="Global.asax.cs">
