@@ -97,7 +97,7 @@ c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,21
                 <div class="col-md-6">
                     <div class="detail-box">
                         <div class="heading_container">
-                            <h2>We Are Feane</h2>
+                            <h2>Good Restaurant</h2>
                         </div>
                         <p>
                             There are many variations of passages of Lorem Ipsum available,

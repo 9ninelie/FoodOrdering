@@ -16,7 +16,7 @@
 				<div class="col-md-6">
 					<div class="detail-box">
 						<div class="heading_container">
-							<h2>We Are Feane</h2>
+							<h2>Good Restaurant</h2>
 						</div>
 						<p>
 							There are many variations of passages of Lorem Ipsum available,

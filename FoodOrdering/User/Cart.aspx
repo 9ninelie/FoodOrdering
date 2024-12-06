@@ -51,7 +51,7 @@
                                         </asp:TextBox>
                                         <asp:RegularExpressionValidator ID="revQuantity" runat="server" ErrorMessage="*" ForeColor="Red"
                                             Font-Size="Small" ValidationExpression="[1-9]*" ControlToValidate="txtQuantity"
-                                            Display="dynamic" SetFocusOnError="true" EnableClientScript="true"></asp:RegularExpressionValidator>
+                                            Display="Dynamic" SetFocusOnError="true" EnableClientScript="true"></asp:RegularExpressionValidator>
                                     </div>
                                 </div>
                             </div>
