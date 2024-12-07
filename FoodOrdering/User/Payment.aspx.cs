@@ -144,7 +144,7 @@ namespace FoodOrdering.User
                 lblMsg.Visible = true;
                 lblMsg.Text = "Your item(s) paid successfully!!!";
                 lblMsg.CssClass = "alert alert-success";
-                Response.AddHeader("REFRESH", "1;URL=Invoice.aspx?id" + paymentId);
+                Response.AddHeader("REFRESH", "1;URL=Invoice.aspx?id=" + paymentId);
             }
             catch (Exception e)
             {
