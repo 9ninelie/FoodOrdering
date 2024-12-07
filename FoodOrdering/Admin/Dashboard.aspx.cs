@@ -13,12 +13,25 @@ namespace FoodOrdering.Admin
         {
             if (!IsPostBack)
             {
-                Session["breadCrum"] = " ";
+                Session["breadCrum"] = "";
                 if (Session["admin"] == null)
                 {
                     Response.Redirect("../User/Login.aspx");
                 }
+                else
+                {
+                    DashboardCount dashboard = new DashboardCount();
+                    Session["category"] = dashboard.Count("CATEGORY");
+                    Session["product"] = dashboard.Count("PRODUCT");
+                    Session["order"] = dashboard.Count("ORDER");
+                    Session["delivered"] = dashboard.Count("DELIVERED");
+                    Session["pending"] = dashboard.Count("PENDING");
+                    Session["user"] = dashboard.Count("USER");
+                    Session["feedback"] = dashboard.Count("CONTACT");
+                }
             }
         }
+
+
     }
 }

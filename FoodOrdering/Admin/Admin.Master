@@ -131,10 +131,11 @@
 							<a class="mobile-menu" id="mobile-collapse" href="#!">
 								<i class="ti-menu"></i>
 							</a>
-							<a href="index.html">
+							<a href="Dashboard.aspx">
 								<img
 									class="img-fluid"
-									src="../assets/images/logo.png"
+									style="width:180px; height:50px"
+									src="../assets/images/logo2.png"
 									alt="Theme-Logo"
 								/>
 							</a>
