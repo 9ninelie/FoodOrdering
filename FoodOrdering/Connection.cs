@@ -94,5 +94,12 @@ namespace FoodOrdering
             sda.Fill(dt);
             return dt.Rows.Count;
         }
+
+        public static string GetUniqueId()
+        {
+            Guid guid = Guid.NewGuid();
+            String uniqueId = guid.ToString();
+            return uniqueId;
+        }
     }
 }
