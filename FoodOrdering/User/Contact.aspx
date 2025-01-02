@@ -54,9 +54,6 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
-                    More text
-                </div>
             </div>
         </div>
     </section>

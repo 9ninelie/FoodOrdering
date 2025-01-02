@@ -132,12 +132,13 @@
 								<i class="ti-menu"></i>
 							</a>
 							<a href="Dashboard.aspx">
-								<img
+								<%--<img
 									class="img-fluid"
 									style="width:180px; height:50px"
 									src="../assets/images/logo2.png"
 									alt="Theme-Logo"
-								/>
+								/>--%>
+								Food Ordering
 							</a>
 							<a class="mobile-options">
 								<i class="ti-more"></i>

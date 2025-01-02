@@ -182,9 +182,14 @@ namespace FoodOrdering.User
 
             public void InstantiateIn(Control container)
             {
-                if(ListItemType == ListItemType.Footer)
+                if (ListItemType == ListItemType.Footer)
                 {
-                    var footer = new LiteralControl("<tr><td colspan='5'><b>Your Cart is Empty.</b><a href='Menu.aspx' class='badge badge-info ml-2'>Add item to cart!</a></td></tr></tbody></table>");
+                    var footer = new LiteralControl(
+                        "<tr><td colspan='6' class='text-center'>" +
+                        "<b>Your Cart is Empty.</b><br/>" +
+                        "<a href='Menu.aspx' class='btn btn-info mt-3'><i class='fa fa-plus-circle'></i> Add Items to Cart</a>" +
+                        "</td></tr></tbody></table>"
+                    );
                     container.Controls.Add(footer);
                 }
             }

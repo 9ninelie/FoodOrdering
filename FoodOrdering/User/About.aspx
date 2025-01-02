@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="img-box">
-						<img src="images/about-img.png" alt="" />
+						<img src="../TemplateFiles/images/approved.png" alt="" />
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -19,14 +19,12 @@
 							<h2>Good Restaurant</h2>
 						</div>
 						<p>
-							There are many variations of passages of Lorem Ipsum available,
-							but the majority have suffered alteration in some form, by
-							injected humour, or randomised words which don't look even
-							slightly believable. If you are going to use a passage of Lorem
-							Ipsum, you need to be sure there isn't anything embarrassing
-							hidden in the middle of text. All
+							Welcome to our online food ordering platform, where convenience meets culinary excellence. We are committed to bringing your favorite meals to your doorstep, freshly prepared and delivered with care. Whether you're craving a quick snack, a hearty meal, or a special treat, we've got you covered. With a wide selection of menu options and user-friendly ordering, we make dining simple and enjoyable.
 						</p>
-						<a href=""> Read More </a>
+						<p>
+							Our mission is to provide a seamless and satisfying food ordering experience. From local favorites to international cuisines, we partner with the best restaurants to ensure quality and variety. Join us and enjoy delicious food, fast delivery, and exceptional service every time.
+						</p>
+						<a href="Menu.aspx">Order Now</a>
 					</div>
 				</div>
 			</div>

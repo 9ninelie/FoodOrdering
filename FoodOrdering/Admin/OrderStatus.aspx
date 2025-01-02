@@ -90,6 +90,7 @@
                                                                 <asp:ListItem>Pending</asp:ListItem>
                                                                 <asp:ListItem>Delivery</asp:ListItem>
                                                                 <asp:ListItem>Delivered</asp:ListItem>
+                                                                <asp:ListItem>Cancel</asp:ListItem>
                                                             </asp:DropDownList>
                                                             <asp:RequiredFieldValidator ID="rfvDdlOrderStatus" runat="server" ForeColor="red" ErrorMessage="Select a status!" 
                                                                 ControlToValidate="ddlOrderStatus" SetFocusOnError="true" Display="Dynamic" InitialValue="0">
